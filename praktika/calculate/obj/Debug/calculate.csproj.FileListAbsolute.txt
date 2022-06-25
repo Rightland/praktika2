@@ -18,3 +18,13 @@ D:\Загрузки\praktika-master\calculate\obj\Debug\calculate.pdb
 D:\Загрузки\praktika-master\calculate\bin\Debug\calculate.exe.config
 D:\Загрузки\praktika-master\calculate\bin\Debug\calculate.exe
 D:\Загрузки\praktika-master\calculate\bin\Debug\calculate.pdb
+C:\Users\Dima\Source\Repos\praktika2\praktika\calculate\bin\Debug\calculate.exe.config
+C:\Users\Dima\Source\Repos\praktika2\praktika\calculate\bin\Debug\calculate.exe
+C:\Users\Dima\Source\Repos\praktika2\praktika\calculate\bin\Debug\calculate.pdb
+C:\Users\Dima\Source\Repos\praktika2\praktika\calculate\obj\Debug\calculate.csproj.AssemblyReference.cache
+C:\Users\Dima\Source\Repos\praktika2\praktika\calculate\obj\Debug\calculate.Form1.resources
+C:\Users\Dima\Source\Repos\praktika2\praktika\calculate\obj\Debug\calculate.Properties.Resources.resources
+C:\Users\Dima\Source\Repos\praktika2\praktika\calculate\obj\Debug\calculate.csproj.GenerateResource.cache
+C:\Users\Dima\Source\Repos\praktika2\praktika\calculate\obj\Debug\calculate.csproj.CoreCompileInputs.cache
+C:\Users\Dima\Source\Repos\praktika2\praktika\calculate\obj\Debug\calculate.exe
+C:\Users\Dima\Source\Repos\praktika2\praktika\calculate\obj\Debug\calculate.pdb

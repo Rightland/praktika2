@@ -24,9 +24,10 @@ namespace calculate
 
         private void button1_Click(object sender, EventArgs e)
         {
-
-    
-
+            double one = Convert.ToDouble(textBox2.Text);
+            double two = Convert.ToDouble(textBox3.Text);
+            var plus = new Plus();
+            textBox1.Text = Convert.ToString(plus.Plusik(one, two));
         }
 
         private void label1_Click(object sender, EventArgs e)
