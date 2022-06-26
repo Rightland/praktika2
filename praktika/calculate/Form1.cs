@@ -43,7 +43,15 @@ namespace calculate
                     textBox1.Text = Convert.ToString(mathALL.Rem(one, six));
                     break;
                 case "button6":
-                    textBox1.Text = Convert.ToString(mathALL.Sin(one));
+                    textBox1.Text = Convert.ToString(mathALL.Sin(one ));
+                    break;
+                case "button7":
+                    textBox1.Text = Convert.ToString(mathALL.square(one));
+                    break;
+                case "button8":
+                    
+                    double seven = Convert.ToDouble(textBox3.Text);
+                    textBox1.Text = Convert.ToString(mathALL.Average(one, seven));
                     break;
                 default:
                     throw new Exception("Неизвестная операция");

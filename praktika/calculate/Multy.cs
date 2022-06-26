@@ -8,7 +8,7 @@ namespace calculate
 {
     class Multy
     {
-        public double Multiplication(double a, double b)
+        public static double MultiplicationTWO(double a, double b)
         {
             return a * b;
         }

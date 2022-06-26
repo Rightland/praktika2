@@ -18,7 +18,7 @@ namespace calculate
         }
         public double Multiplication(double a, double b)
         {
-            return a * b;
+            return Multy.MultiplicationTWO(a, b);
         }
         public double Plusik(double a, double b)
         {
@@ -31,6 +31,14 @@ namespace calculate
         public double Sin(double a)
         {
             return Math.Sin(a);
+        }
+        public double Average(double a,double b)
+        {
+            return (a + b) / 2;
+        }
+        public double square(double a)
+        {
+            return a * a ;
         }
     }
 }
