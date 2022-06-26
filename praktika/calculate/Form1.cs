@@ -16,7 +16,30 @@ namespace calculate
         {
             InitializeComponent();
         }
+        private void buttonALL_Click(object sender, EventArgs e)
+        {
+            double one = Convert.ToDouble(textBox2.Text);
+            double two = Convert.ToDouble(textBox3.Text);
+            var mathALL = new mathOperation();
+            switch (((Button)sender).Name)
+            {
+                case "button1":
+                    textBox1.Text = Convert.ToString(mathALL.Plusik(one, two));
+                    break;
+                case "button4":
+                    textBox1.Text = Convert.ToString(mathALL.Multiplication(one, two));
+                    break;
+                case "button3":
+                    textBox1.Text = Convert.ToString(mathALL.Division(one, two));
+                    break;
+                case "button2":
+                    textBox1.Text = Convert.ToString(mathALL.Minus(one, two));
+                    break;
+                default:
+                    throw new Exception("Неизвестная операция");
+            }
 
+        }
         private void textBox3_TextChanged(object sender, EventArgs e)
         {
 
@@ -24,10 +47,7 @@ namespace calculate
 
         private void button1_Click(object sender, EventArgs e)
         {
-            double one = Convert.ToDouble(textBox2.Text);
-            double two = Convert.ToDouble(textBox3.Text);
-            var plus = new Plus();
-            textBox1.Text = Convert.ToString(plus.Plusik(one, two));
+ 
         }
 
         private void label1_Click(object sender, EventArgs e)

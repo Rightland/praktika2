@@ -2,7 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\praktika",
-    "\\praktika\\calculate"
+    "\\praktika\\calculate",
+    "\\praktika\\calculate\\bin",
+    "\\praktika\\calculate\\obj",
+    "\\praktika\\calculate\\obj\\Debug"
   ],
   "SelectedNode": "\\praktika\\calculate\\Form1.cs",
   "PreviewInSolutionExplorer": false
