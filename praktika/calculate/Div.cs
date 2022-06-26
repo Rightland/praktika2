@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace calculate
 {
-    class Plus
+    class Div
     {
-        public double Plusik(double a, double b)
+        public double Division(double a, double b)
         {
-            return a + b;
+            return a / b;
         }
     }
 }

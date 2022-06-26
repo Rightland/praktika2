@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace calculate
 {
-    class Plus
+    class Sinus
     {
-        public double Plusik(double a, double b)
+        public double Sin(double a)
         {
-            return a + b;
+            return Math.Sin(a);
         }
     }
 }

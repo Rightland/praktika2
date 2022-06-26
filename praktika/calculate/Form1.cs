@@ -19,21 +19,31 @@ namespace calculate
         private void buttonALL_Click(object sender, EventArgs e)
         {
             double one = Convert.ToDouble(textBox2.Text);
-            double two = Convert.ToDouble(textBox3.Text);
             var mathALL = new mathOperation();
             switch (((Button)sender).Name)
             {
                 case "button1":
+                    double two = Convert.ToDouble(textBox3.Text);
                     textBox1.Text = Convert.ToString(mathALL.Plusik(one, two));
                     break;
                 case "button4":
-                    textBox1.Text = Convert.ToString(mathALL.Multiplication(one, two));
+                    double three = Convert.ToDouble(textBox3.Text);
+                    textBox1.Text = Convert.ToString(mathALL.Multiplication(one, three));
                     break;
                 case "button3":
-                    textBox1.Text = Convert.ToString(mathALL.Division(one, two));
+                    double four = Convert.ToDouble(textBox3.Text);
+                    textBox1.Text = Convert.ToString(mathALL.Division(one, four));
                     break;
                 case "button2":
-                    textBox1.Text = Convert.ToString(mathALL.Minus(one, two));
+                    double five = Convert.ToDouble(textBox3.Text);
+                    textBox1.Text = Convert.ToString(mathALL.Minus(one, five));
+                    break;
+                case "button5":
+                    double six = Convert.ToDouble(textBox3.Text);
+                    textBox1.Text = Convert.ToString(mathALL.Rem(one, six));
+                    break;
+                case "button6":
+                    textBox1.Text = Convert.ToString(mathALL.Sin(one));
                     break;
                 default:
                     throw new Exception("Неизвестная операция");

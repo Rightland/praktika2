@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace calculate
 {
-    class Plus
+    class Remainder
     {
-        public double Plusik(double a, double b)
+        public double Rem(double a, double b)
         {
-            return a + b;
+            return a % b;
         }
     }
 }
