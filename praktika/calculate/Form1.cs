@@ -31,8 +31,23 @@ namespace calculate
                     textBox1.Text = Convert.ToString(mathALL.Multiplication(one, three));
                     break;
                 case "button3":
-                    double four = Convert.ToDouble(textBox3.Text);
-                    textBox1.Text = Convert.ToString(mathALL.Division(one, four));
+                    try
+                    {
+
+                        double four = Convert.ToDouble(textBox3.Text);
+                        if (four == 0)
+                        {
+                            MessageBox.Show("На ноль делить нельзя.");
+                            return;
+                        }
+                        textBox1.Text = Convert.ToString(mathALL.Division(one, four));
+                    }
+                    catch (System.FormatException)
+                    {
+                        textBox2.Clear();
+                        textBox3.Clear();
+                    }
+                    
                     break;
                 case "button2":
                     double five = Convert.ToDouble(textBox3.Text);
@@ -93,6 +108,11 @@ namespace calculate
         }
 
         private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
         }
