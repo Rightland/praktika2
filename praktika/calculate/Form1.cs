@@ -49,7 +49,6 @@ namespace calculate
                     textBox1.Text = Convert.ToString(mathALL.square(one));
                     break;
                 case "button8":
-                    
                     double seven = Convert.ToDouble(textBox3.Text);
                     textBox1.Text = Convert.ToString(mathALL.Average(one, seven));
                     break;
