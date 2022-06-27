@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace calculate
 {
-    class Remainder
+    class Remainder : ITwoArgumentsCalculator
     {
-        public static double Rem(double a, double b)
+
+        public double Calculate(double a, double b)
         {
             return a % b;
         }

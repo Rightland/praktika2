@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace calculate
 {
-    class average
-    {
-        public static double Average(double a, double b)
+    class average : ITwoArgumentsCalculator    {
+        public  double Calculate(double a, double b)
         {
             return (a + b) / 2;
         }

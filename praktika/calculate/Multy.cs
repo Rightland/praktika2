@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace calculate
 {
-    class Multy
+    class Multy : ITwoArgumentsCalculator
     {
-        public static double MultiplicationTWO(double a, double b)
+        public  double Calculate(double a, double b)
         {
             return a * b;
         }

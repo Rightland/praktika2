@@ -54,6 +54,7 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Interface1.cs" />
     <Compile Include="mathOperation.cs" />
     <Compile Include="minus.cs" />
     <Compile Include="Multy.cs" />

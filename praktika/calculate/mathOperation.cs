@@ -4,41 +4,41 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace calculate
 {
-    class mathOperation
+   class TwoArgumentsFactory 
     {
-        public double Division(double a, double b)
-        {
-            return Div.Division(a,b);
+        
+         public static ITwoArgumentsCalculator Creator(string calculatorName) {
+            switch (calculatorName) {
+                case "Plus":
+                    return new Plus();
+                case "Multi":
+                    return new Multy();
+                case "minus":
+                    return new minus();
+                case "Div":
+                    return new Div();
+          
+                case "Remainder":
+                    return  new Remainder();
+                case "Sinus":
+                    return new Sinus();
+
+                case "average":
+                    return new average();
+
+                case "Square":
+                    return new Square();
+
+                default:
+                    throw new Exception("Неизвестная операция");
+            }
+
         }
-        public double Minus(double a, double b)
-        {
-            return minus.Minus(a,b);
-        }
-        public double Multiplication(double a, double b)
-        {
-            return Multy.MultiplicationTWO(a, b);
-        }
-        public double Plusik(double a, double b)
-        {
-            return Plus.Plusik(a,b);
-        }
-        public double Rem(double a, double b)
-        {
-            return Remainder.Rem(a,b);
-        }
-        public double Sin(double a)
-        {
-            return Sinus.Sin(a);
-        }
-        public double Average(double a,double b)
-        {
-            return average.Average(a,b);
-        }
-        public double square(double a)
-        {
-            return Square.square(a);
-        }
+
+       
     }
+
 }

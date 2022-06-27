@@ -113,7 +113,6 @@ namespace calculate
             this.label1.Size = new System.Drawing.Size(142, 20);
             this.label1.TabIndex = 7;
             this.label1.Text = "Первый аргумент";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -132,7 +131,6 @@ namespace calculate
             this.label3.Size = new System.Drawing.Size(89, 20);
             this.label3.TabIndex = 9;
             this.label3.Text = "Результат";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // button3
             // 

@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace calculate
 {
-    class Plus
+    class Plus : ITwoArgumentsCalculator
     {
-        public static  double Plusik(double a, double b)
+
+        public  double Calculate(double a, double b)
         {
             return a + b;
         }

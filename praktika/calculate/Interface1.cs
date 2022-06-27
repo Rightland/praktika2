@@ -6,13 +6,8 @@ using System.Threading.Tasks;
 
 namespace calculate
 {
-    class Div : ITwoArgumentsCalculator
+    interface ITwoArgumentsCalculator
     {
-
-    
-        public  double Calculate(double a, double b)
-        {
-            return a / b;
-        }
+        double Calculate(double firstValue, double secondValue);
     }
 }

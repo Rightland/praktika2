@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 
 namespace calculate
 {
-    class Sinus
+    class Sinus : ITwoArgumentsCalculator
     {
-        public static double Sin(double a)
+
+
+        public  double Calculate(double a,double b)
         {
             return Math.Sin(a);
         }
