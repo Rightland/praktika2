@@ -54,8 +54,21 @@ namespace calculate
                     textBox1.Text = Convert.ToString(mathALL.Minus(one, five));
                     break;
                 case "button5":
-                    double six = Convert.ToDouble(textBox3.Text);
-                    textBox1.Text = Convert.ToString(mathALL.Rem(one, six));
+                    try
+                    {
+                        double six = Convert.ToDouble(textBox3.Text);
+                        if (six == 0)
+                        {
+                            MessageBox.Show("На ноль делить нельзя.");
+                            return;
+                        }
+                        textBox1.Text = Convert.ToString(mathALL.Rem(one, six));
+                    }
+                    catch (System.FormatException)
+                    {
+                        textBox2.Clear();
+                        textBox3.Clear();
+                    }
                     break;
                 case "button6":
                     textBox1.Text = Convert.ToString(mathALL.Sin(one ));
