@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\praktika",
+    "\\praktika\\calculate",
+    "\\praktika\\calculate\\Math"
   ],
-  "SelectedNode": "\\calculate.sln",
+  "SelectedNode": "\\praktika\\calculate\\Math\\Remainder.cs",
   "PreviewInSolutionExplorer": false
 }
