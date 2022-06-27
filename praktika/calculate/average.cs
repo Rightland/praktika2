@@ -8,7 +8,7 @@ namespace calculate
 {
     class average
     {
-        public double Average(double a, double b)
+        public static double Average(double a, double b)
         {
             return (a + b) / 2;
         }

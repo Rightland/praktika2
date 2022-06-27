@@ -8,7 +8,7 @@ namespace calculate
 {
     class Remainder
     {
-        public double Rem(double a, double b)
+        public static double Rem(double a, double b)
         {
             return a % b;
         }

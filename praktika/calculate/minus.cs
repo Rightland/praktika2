@@ -8,7 +8,7 @@ namespace calculate
 {
     class minus
     {
-        public double Minus(double a, double b)
+        public static double Minus(double a, double b)
         {
             return a - b;
         }

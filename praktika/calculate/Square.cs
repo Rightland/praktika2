@@ -8,7 +8,7 @@ namespace calculate
 {
     class Square
     {
-        public double square(double a)
+        public static double square(double a)
         {
             return a * a;
         }

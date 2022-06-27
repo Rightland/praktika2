@@ -8,7 +8,7 @@ namespace calculate
 {
     class Plus
     {
-        public double Plusik(double a, double b)
+        public static  double Plusik(double a, double b)
         {
             return a + b;
         }

@@ -10,11 +10,11 @@ namespace calculate
     {
         public double Division(double a, double b)
         {
-            return a / b;
+            return Div.Division(a,b);
         }
         public double Minus(double a, double b)
         {
-            return a - b;
+            return minus.Minus(a,b);
         }
         public double Multiplication(double a, double b)
         {
@@ -22,23 +22,23 @@ namespace calculate
         }
         public double Plusik(double a, double b)
         {
-            return a + b;
+            return Plus.Plusik(a,b);
         }
         public double Rem(double a, double b)
         {
-            return a % b;
+            return Remainder.Rem(a,b);
         }
         public double Sin(double a)
         {
-            return Math.Sin(a);
+            return Sinus.Sin(a);
         }
         public double Average(double a,double b)
         {
-            return (a + b) / 2;
+            return average.Average(a,b);
         }
         public double square(double a)
         {
-            return a * a ;
+            return Square.square(a);
         }
     }
 }

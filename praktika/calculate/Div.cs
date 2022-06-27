@@ -8,7 +8,7 @@ namespace calculate
 {
     class Div
     {
-        public double Division(double a, double b)
+        public static double Division(double a, double b)
         {
             return a / b;
         }

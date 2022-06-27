@@ -8,7 +8,7 @@ namespace calculate
 {
     class Sinus
     {
-        public double Sin(double a)
+        public static double Sin(double a)
         {
             return Math.Sin(a);
         }
