@@ -38,3 +38,13 @@ C:\Users\Галина\Source\Repos\praktika21\praktika\calculate\obj\Debug\calcu
 C:\Users\Галина\Source\Repos\praktika21\praktika\calculate\obj\Debug\calculate.csproj.CoreCompileInputs.cache
 C:\Users\Галина\Source\Repos\praktika21\praktika\calculate\obj\Debug\calculate.exe
 C:\Users\Галина\Source\Repos\praktika21\praktika\calculate\obj\Debug\calculate.pdb
+C:\Users\Галина\Source\Repos\praktikaEnd\praktika\calculate\bin\Debug\calculate.exe.config
+C:\Users\Галина\Source\Repos\praktikaEnd\praktika\calculate\bin\Debug\calculate.exe
+C:\Users\Галина\Source\Repos\praktikaEnd\praktika\calculate\bin\Debug\calculate.pdb
+C:\Users\Галина\Source\Repos\praktikaEnd\praktika\calculate\obj\Debug\calculate.csproj.AssemblyReference.cache
+C:\Users\Галина\Source\Repos\praktikaEnd\praktika\calculate\obj\Debug\calculate.Form1.resources
+C:\Users\Галина\Source\Repos\praktikaEnd\praktika\calculate\obj\Debug\calculate.Properties.Resources.resources
+C:\Users\Галина\Source\Repos\praktikaEnd\praktika\calculate\obj\Debug\calculate.csproj.GenerateResource.cache
+C:\Users\Галина\Source\Repos\praktikaEnd\praktika\calculate\obj\Debug\calculate.csproj.CoreCompileInputs.cache
+C:\Users\Галина\Source\Repos\praktikaEnd\praktika\calculate\obj\Debug\calculate.exe
+C:\Users\Галина\Source\Repos\praktikaEnd\praktika\calculate\obj\Debug\calculate.pdb

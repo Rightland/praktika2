@@ -118,7 +118,7 @@ namespace calculate
             }
             catch (System.FormatException)
             {
-                textBox2.Clear();
+                textBox3.Clear();
             }
         }
 
