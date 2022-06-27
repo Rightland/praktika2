@@ -121,17 +121,6 @@ namespace calculate
                 textBox3.Clear();
             }
         }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
             if (String.IsNullOrEmpty(textBox2.Text))
@@ -147,14 +136,25 @@ namespace calculate
             }
         }
 
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            textBox1.ReadOnly = true;
+        }
+
+
         private void button2_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void button4_Click(object sender, EventArgs e)
         {
-            textBox1.ReadOnly = true;
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

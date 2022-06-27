@@ -48,3 +48,6 @@ C:\Users\Галина\Source\Repos\praktikaEnd\praktika\calculate\obj\Debug\calc
 C:\Users\Галина\Source\Repos\praktikaEnd\praktika\calculate\obj\Debug\calculate.csproj.CoreCompileInputs.cache
 C:\Users\Галина\Source\Repos\praktikaEnd\praktika\calculate\obj\Debug\calculate.exe
 C:\Users\Галина\Source\Repos\praktikaEnd\praktika\calculate\obj\Debug\calculate.pdb
+C:\Users\Галина\Source\Repos\praktikaEnd\praktika\calculate\bin\Debug\nunit.framework.dll
+C:\Users\Галина\Source\Repos\praktikaEnd\praktika\calculate\bin\Debug\nunit.framework.xml
+C:\Users\Галина\Source\Repos\praktikaEnd\praktika\calculate\obj\Debug\calculate.csproj.CopyComplete
